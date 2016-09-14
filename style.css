@@ -32,9 +32,18 @@ body {
     overflow-x: hidden;
     color: white;
 }
-h1,h2,h3,h4,h5,h6{
+h1,h2,h6{
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
+}
+h3,h4,h5,li,p{
+    font-weight: 300;
+}
+li{
+    font-size: 12em;
+}
+h3 {
+    color: white;
 }
 i {
     color: white;
@@ -42,9 +51,6 @@ i {
 }
 hr {
     margin: 20px 40px 0 40px; 
-}
-h3 {
-    color: white;
 }
 a {
     text-decoration: none;
@@ -111,7 +117,6 @@ a {
     border-bottom: 1px solid white;
     transition: all 0.7s ease;
     transform-style: preserve-3d;
-    cursor: pointer;
 }
 .open-boxes a{
     text-decoration: none;
@@ -123,6 +128,8 @@ a {
     border-bottom: 1px solid white;
     transition: all 0.7s ease;
     transform-style: preserve-3d;
+}
+.open-click{
     cursor: pointer;
 }
 .open-click:hover {
@@ -148,12 +155,6 @@ a {
     color: black;
 }
 
-.word-spacing-jason{
-    letter-spacing: 10px;
-}
-.word-spacing-design{
-    letter-spacing: 5px;
-}
 .profile-img {
     background-image: url(img/profile-photo.jpg);
     background-size: cover;
@@ -213,12 +214,23 @@ a {
     background-color: #222;
     opacity: .9;
 }
+
+/*Jason*/
 #jason {
-    padding-top: 30px; 
+    padding-top: 15px; 
     background-position: center;
     background-color: #222;
     opacity: .9;
 }
+.word-spacing-jason{
+    letter-spacing: 10px;
+}
+.word-spacing-design{
+    letter-spacing: 5px;
+    margin-top: 10px;
+    font-weight: 200;
+}
+
 .white-box {
     border: 2px solid white;
 }
