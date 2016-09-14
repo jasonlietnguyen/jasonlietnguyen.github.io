@@ -1,0 +1,289 @@
+/*Navbar*/
+.navbar-margin-top {
+    margin-top: 40px;
+}
+.navbar-margin-bottom {
+    margin-bottom: 30px;
+}
+#custom-navbar p {
+    font-size: 1.5em;
+    color: white;
+    display: inline;
+    padding-left: 20px;
+    opacity: .9;
+    color: #e0e0e0;
+}
+#custom-navbar p:hover {
+    color: #999;
+}
+#custom-navbar a {
+    text-decoration: none;
+}
+
+
+/*Body*/
+body {
+    background-image: url(img/background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    overflow-x: hidden;
+    color: white;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+}
+i {
+    color: white;
+    padding-top: 30px;
+}
+hr {
+    margin: 20px 40px 0 40px; 
+}
+h3 {
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+
+/*HR*/
+.col-md-4 hr,i{
+    backface-visibility: hidden;
+}
+
+/*Cards*/
+.per{
+    perspective: 700;
+}
+.square-box {
+    height: 180px;
+}
+
+.square-box-light {
+    /*background-color: #00BCD4;*/
+    background-color: rgba(220, 220, 220, .6);
+    height: 180px;
+    opacity: .9;
+}
+.square-box-red {
+    /*background-color: #fc5555;*/
+    background-color: #00b5c9;
+    height: 180px;
+    transition: all 0.7s ease;
+    transform-style: preserve-3d;
+    opacity: .9;
+}
+.square-box-red:hover {
+    background: -webkit-linear-gradient(rgba(0, 181, 201, .8), rgba(0, 1, 17, .8));
+    background: -webkit-linear-gradient(rgba(0, 181, 201, .8), rgba(0, 1, 17, .8)); /*Safari 5.1-6*/
+  	background: -o-linear-gradient(rgba(0, 181, 201, .8), rgba(0, 1, 17, .8)); /*Opera 11.1-12*/
+  	background: -moz-linear-gradient(rgba(0, 181, 201, .8), rgba(0, 1, 17, .8)); /*Fx 3.6-15*/
+  	background: linear-gradient(rgba(0, 181, 201, .8), rgba(0, 1, 17, .8));
+    transform: rotateY(180deg);
+}
+.front, .back{
+    backface-visibility: hidden;
+}
+.back{
+    position: absolute;
+    transform: rotateY(180deg);
+    padding: 15px 20px 0 0;
+}
+.square-box-black {
+    background-color: #222;
+    height: 180px;
+    opacity: .9;
+    color: white;
+}
+
+/*Open Boxes*/
+.open-boxes {
+    /*background-color: #fc5555;*/
+    background-color: #00b5c9;
+    height: 180px;
+    opacity: .9;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    transition: all 0.7s ease;
+    transform-style: preserve-3d;
+}
+.open-boxes a{
+    text-decoration: none;
+}
+.open-box {
+    background-color: #00b5c9;
+    height: 180px;
+    opacity: .9;
+    border-bottom: 1px solid white;
+    transition: all 0.7s ease;
+    transform-style: preserve-3d;
+}
+.open-click:hover {
+    background: -webkit-linear-gradient(rgba(0, 181, 201, .8), rgba(0, 1, 17, .8));
+    background: -webkit-linear-gradient(rgba(0, 181, 201, .8), rgba(0, 1, 17, .8)); /*Safari 5.1-6*/
+  	background: -o-linear-gradient(rgba(0, 181, 201, .8), rgba(0, 1, 17, .8)); /*Opera 11.1-12*/
+  	background: -moz-linear-gradient(rgba(0, 181, 201, .8), rgba(0, 1, 17, .8)); /*Fx 3.6-15*/
+  	background: linear-gradient(rgba(0, 181, 201, .8), rgba(0, 1, 17, .8));
+    transform: rotateY(180deg);
+    border-right: 0;
+    border-left: 1px solid white;
+}
+.open-box:hover{
+    border-left: 0;
+}
+
+/*Quotes*/
+.quotes h3{
+    color: black;
+    font-weight: 300;
+}
+.quotes i{
+    color: black;
+}
+
+.word-spacing-jason{
+    letter-spacing: 10px;
+}
+.word-spacing-design{
+    letter-spacing: 5px;
+}
+.profile-img {
+    background-image: url(img/profile-photo.jpg);
+    background-size: cover;
+    height: 180px;
+}
+.margin-top {
+    margin-top: 20px;
+}
+.logo-padding {
+    padding-top: 20px;
+}
+.img-photography {
+    background-image: url(img/photography.jpg);
+    background-size: cover;
+    padding-top: 50px;
+}
+.img-travel {
+    background-image: url(img/travel.jpg);
+    background-size: cover;
+    padding-top: 50px;
+}
+.img-food {
+    background-image: url(img/food.jpg);
+    background-size: cover;
+    padding-top: 50px;
+}
+.img-outdoors {
+    background-image: url(img/outdoor.jpg);
+    background-size: cover;
+    padding-top: 50px;
+}
+.img-creative {
+    background-image: url(img/creative.jpg);
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 60px;
+    height: 180px;
+    font-weight: 200;
+}
+.img-code {
+    background-image: url(img/code.jpg);
+    background-size: cover;
+    padding-top: 15px;
+    background-position: center;
+    height: 180px;
+}
+.img-code h1{
+    font-size: 4em;
+}
+.img-creative h2{
+    border: 1px solid white;
+    padding: 10px 0;
+    margin: 0 40px;
+    color: white;
+}
+.img-padding{
+    background-color: #222;
+    opacity: .9;
+}
+#jason {
+    padding-top: 30px; 
+    background-position: center;
+    background-color: #222;
+    opacity: .9;
+}
+.white-box {
+    border: 2px solid white;
+}
+.img-text h3{
+    border: 1px solid white;
+    padding: 10px 0;
+}
+.portfolio {
+    font-size: 4em;
+    padding: 40px 0;
+}
+.portfolio-margin {
+    margin-top: 15px;
+}
+
+/*Thumbnail*/
+.thumbnail-box {
+    background-color: #222;
+    border: none;
+    border-radius: 0;
+    opacity: .95;
+}
+.thumbnail-box:hover {
+    background-color: #111;
+    background: -webkit-linear-gradient(rgba(0, 181, 201, .8), rgba(0, 1, 17, .8));
+    background: -webkit-linear-gradient(rgba(0, 181, 201, .8), rgba(0, 1, 17, .8)); /*Safari 5.1-6*/
+  	background: -o-linear-gradient(rgba(0, 181, 201, .8), rgba(0, 1, 17, .8)); /*Opera 11.1-12*/
+  	background: -moz-linear-gradient(rgba(0, 181, 201, .8), rgba(0, 1, 17, .8)); /*Fx 3.6-15*/
+  	background: linear-gradient(rgba(0, 181, 201, .8), rgba(0, 1, 17, .8));
+}
+.go-button {
+    border: 1px solid #00BCD4;
+    color: #00BCD4;
+    margin: 0 80px 5px 80px;
+    padding: 5px 0;
+    transition: .3s ease;
+}
+.go-button:hover {
+    border: 1px solid #00BCD4;
+    color: white;
+    background-color: #00BCD4;
+}
+.portfolio-margin a {
+    text-decoration: none;
+}
+
+
+/*Scroll Bar*/
+::-webkit-scrollbar {
+    width: 13px;  
+}
+::-webkit-scrollbar-thumb {
+    background: #777;
+    border-radius: 10px;
+    padding-left: 10px; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/*Glow*/
+/*@-webkit-keyframes glow {
+from {
+    box-shadow: 0 0 10px #00BCD4;
+    text-shadow: 0 0 10px #00BCD4;
+}
+to {
+    box-shadow: 0 0 5px #00BCD4;
+    text-shadow: 0 0 5px #00BCD4;
+}
+}*/
