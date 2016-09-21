@@ -72,7 +72,7 @@ a {
     height: 180px;
     opacity: .9;
 }
-.square-box-red {
+.square-box-blue {
     /*background-color: #fc5555;*/
     background-color: #00b5c9;
     height: 180px;
@@ -81,7 +81,7 @@ a {
     opacity: .9;
     
 }
-.square-box-red:hover {
+.square-box-blue:hover {
     background: -webkit-linear-gradient(rgba(0, 181, 201, .8), rgba(0, 1, 17, .8));
     background: -webkit-linear-gradient(rgba(0, 181, 201, .8), rgba(0, 1, 17, .8)); /*Safari 5.1-6*/
   	background: -o-linear-gradient(rgba(0, 181, 201, .8), rgba(0, 1, 17, .8)); /*Opera 11.1-12*/
