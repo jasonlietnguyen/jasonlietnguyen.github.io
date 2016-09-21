@@ -136,9 +136,10 @@ a {
     transform: rotateY(-180deg);
     border-right: 0;
     border-left: 1px solid white;
+    cursor: pointer;
 }
 .open-box:hover{
-    border-left: 0;
+    border-left: 1px solid white;
 }
 
 /*Quotes*/
