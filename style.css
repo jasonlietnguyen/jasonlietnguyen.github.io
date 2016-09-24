@@ -68,7 +68,6 @@ a {
 .square-box {
     height: 180px;
 }
-
 .square-box-light {
     /*background-color: #00BCD4;*/
     background-color: rgba(220, 220, 220, .6);
@@ -77,12 +76,12 @@ a {
 }
 .square-box-blue {
     /*background-color: #fc5555;*/
-    background-color: #00b5c9;
-    height: 180px;
-    transition: all 0.7s ease;
-    transform-style: preserve-3d;
-    opacity: .9;
+    background-color: rgba(0, 181, 201, .9);
     cursor: pointer;
+    height: 180px;
+    transition: all 0.6s ease;
+    transform-style: preserve-3d;
+    position: relative;
 }
 .square-box-blue:hover {
     background: -webkit-linear-gradient(rgba(0, 181, 201, .8), rgba(0, 1, 17, .7));
@@ -96,9 +95,8 @@ a {
     backface-visibility: hidden;
 }
 .back{
-    position: absolute;
     transform: rotateY(180deg);
-    padding: 15px 20px 0 0;
+    position: absolute;
 }
 .square-box-black {
     background-color: #222;
