@@ -108,9 +108,8 @@ a {
 /*Open Boxes*/
 .open-boxes {
     /*background-color: #fc5555;*/
-    background-color: #00b5c9;
+    background-color: rgba(0, 181, 201, .9);
     height: 180px;
-    opacity: .9;
     border-right: 1px solid white;
     border-bottom: 1px solid white;
     transition: all 0.7s ease;
@@ -120,9 +119,8 @@ a {
     text-decoration: none;
 }
 .open-box {
-    background-color: #00b5c9;
+    background-color: rgba(0, 181, 201, .9);
     height: 180px;
-    opacity: .9;
     border-bottom: 1px solid white;
     transition: all 0.7s ease;
     transform-style: preserve-3d;
@@ -236,6 +234,8 @@ a {
     border: 1px solid white;
     padding: 10px 0;
 }
+
+/*Portfolio*/
 .portfolio {
     font-size: 4em;
     padding: 40px 0;
@@ -243,8 +243,16 @@ a {
 .portfolio-margin {
     margin-top: 15px;
 }
-
-/*Thumbnail*/
+.portfolio-margin h5{
+    opacity: .5;
+    padding: 4px;
+    border: 1px solid white;
+    display: inline-block;
+    text-align: center;
+}
+.portfolio-margin img{
+    padding-top: 5px;
+}
 .thumbnail-box {
     background-color: #222;
     border: none;
