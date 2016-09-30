@@ -289,8 +289,7 @@ a {
     width: 13px;  
 }
 ::-webkit-scrollbar-thumb {
-    background: #777;
-    border-radius: 10px;
+    background: #00BCD4;
     padding-left: 10px; 
 }
 ::-webkit-scrollbar-thumb:hover {
