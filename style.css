@@ -118,6 +118,9 @@ a {
 .open-boxes a{
     text-decoration: none;
 }
+.open-box a{
+    text-decoration: none;
+}
 .open-box {
     background-color: rgba(0, 181, 201, .9);
     height: 180px;
