@@ -23,7 +23,6 @@
 
 /*Body*/
 body {
-    background-image: url(img/background.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: top;
@@ -237,6 +236,7 @@ a {
     border: 1px solid white;
     padding: 10px 0;
 }
+
 
 /*Portfolio*/
 .portfolio {
