@@ -425,7 +425,7 @@ body:before {
 	}
 	.q-web{
 		font-weight: 200;
-		font-size: 2em;
+		font-size: 1.5em;
 		letter-spacing: 1px;
 	}
 	.q-arrow{
@@ -487,7 +487,7 @@ body:before {
 		font-size: 3.5em;
 	}
 	.q-web{
-		font-size: 1.5em;
+		font-size: 1.1em;
 	}
 
 /*Skills and Education Img*/ 
@@ -504,6 +504,9 @@ body:before {
     h2{
         font-size: 1.8em;
     }
+    .q-web{
+		font-size: 1em;
+	}
 
     /*Skills*/
     .q-skills h4{
@@ -511,6 +514,11 @@ body:before {
     }
     .q-skills img, .q-education img{
         height: 70px;
+    }
+
+    /*Experience*/
+    .q-experience h3{
+        font-weight: 300;
     }
 
     /*Education*/
