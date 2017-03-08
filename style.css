@@ -1,3 +1,5 @@
+
+
 /*Navbar*/
 .navbar-margin-top {
     margin-top: 40px;
@@ -283,18 +285,6 @@ a {
     color: white;
     background-color: #00BCD4;
 }
-/*.go-button {
-    border: 1px solid #00BCD4;
-    color: #00BCD4;
-    padding: 10px 25px;
-    transition: .3s ease;
-    cursor: pointer;
-}
-.go-button:hover {
-    border: 1px solid #00BCD4;
-    color: white;
-    background-color: #00BCD4;
-}*/
 .code-button{
     border: 1px solid #00BCD4;
     background-color: #00BCD4;
@@ -342,15 +332,194 @@ body:before {
   -o-background-size: cover;
   background-size: cover;
 }
+.mobile{
+	display: none;
+}
 
-/*Glow*/
-/*@-webkit-keyframes glow {
-from {
-    box-shadow: 0 0 10px #00BCD4;
-    text-shadow: 0 0 10px #00BCD4;
+
+
+
+/*Tablet*/
+@media (max-width: 900px) {
+	.desktop{
+		display: none;
+	}
+	.mobile{
+	   display: block;
+	 }
+	.q-lg-padding{
+		padding: 80px;
+	}
+	.q-md-padding{
+		padding: 50px;
+	}
+	.q-padding{
+		padding: 40px;
+	}
+	.q-sm-padding{
+		padding: 20px;
+	}
+	.q-title{
+		font-weight: 200;
+		font-size: 4rem;
+	}
+	.q-hr{
+		border-top: 2px solid #00BCD4;
+	}
+    .q-description{
+        display: none;
+    }
+	*{
+		font-weight: 300;
+	}
+    .q-i{
+        background-color: rgba(0, 181, 201, .8);
+        padding: 25px; 
+        border-radius: 50%;
+        padding-bottom: -50px;
+        margin-bottom: -50px;
+        position: relative;
+    }
+    p{
+        font-size: 1.2em;
+    }
+    h2{
+        font-size: 2.1em;
+    }
+    .q-square-box-black {
+        background: -webkit-linear-gradient(rgba(0, 181, 201, .8), rgba(0, 1, 17, .7));
+        background: -webkit-linear-gradient(rgba(0, 181, 201, .8), rgba(0, 1, 17, .7)); /*Safari 5.1-6*/
+        background: -o-linear-gradient(rgba(0, 181, 201, .8), rgba(0, 1, 17, .7)); /*Opera 11.1-12*/
+        background: -moz-linear-gradient(rgba(0, 181, 201, .8), rgba(0, 1, 17, .7)); /*Fx 3.6-15*/
+        background: linear-gradient(rgba(0, 181, 201, .8), rgba(0, 1, 17, .7));
+        height: 180px;
+        opacity: .9;
+        color: white;
+    }
+
+
+
+/*Box*/
+    .q-box{
+        background: -webkit-linear-gradient(rgba(0, 181, 201, .8), rgba(0, 1, 17, .7));
+        background: -webkit-linear-gradient(rgba(0, 181, 201, .8), rgba(0, 1, 17, .7)); /*Safari 5.1-6*/
+        background: -o-linear-gradient(rgba(0, 181, 201, .8), rgba(0, 1, 17, .7)); /*Opera 11.1-12*/
+        background: -moz-linear-gradient(rgba(0, 181, 201, .8), rgba(0, 1, 17, .7)); /*Fx 3.6-15*/
+        background: linear-gradient(rgba(0, 181, 201, .8), rgba(0, 1, 17, .7));
+    }
+
+/*Landing*/
+	.body{
+		background-attachment: fixed;
+		color: white;
+	}
+	#jln{
+		width: 15%;
+	}
+	.q-jason{
+		font-weight: 100;
+		font-size: 6em;
+		letter-spacing: 1px;
+	}
+	.q-web{
+		font-weight: 200;
+		font-size: 1.5em;
+		letter-spacing: 1px;
+	}
+	.q-arrow{
+		margin-bottom: 50px;
+	}
+
+/*Profile*/
+	.q-profile{
+		border-radius: 50%;
+        display: inline-block;
+        margin: auto auto;
+	}
+
+/*Skills and Education Img*/
+    .q-skills img, .q-education img{
+        height: 150px;
+        margin: auto;
+        display: block;
+    }
+
+/*Portfolio*/
+    .thumbnail-box{
+        background-color: #111;
+        background: -webkit-linear-gradient(rgba(0, 181, 201, .8), rgba(0, 1, 17, .8));
+        background: -webkit-linear-gradient(rgba(0, 181, 201, .8), rgba(0, 1, 17, .8)); /*Safari 5.1-6*/
+        background: -o-linear-gradient(rgba(0, 181, 201, .8), rgba(0, 1, 17, .8)); /*Opera 11.1-12*/
+        background: -moz-linear-gradient(rgba(0, 181, 201, .8), rgba(0, 1, 17, .8)); /*Fx 3.6-15*/
+        background: linear-gradient(rgba(0, 181, 201, .8), rgba(0, 1, 17, .8));
+    }
+
+
 }
-to {
-    box-shadow: 0 0 5px #00BCD4;
-    text-shadow: 0 0 5px #00BCD4;
+
+
+
+/*Phone*/
+@media (max-width: 720px) {
+	.q-lg-padding{
+		padding: 50px;
+	}
+	.q-md-padding{
+		padding: 30px;
+	}
+	.q-padding{
+		padding: 20px;
+	}
+	.q-sm-padding{
+		padding: 10px;
+	}
+    p{
+        font-size: 1em;
+    }
+
+/*Landing*/
+	#jln{
+		width: 20%;
+	}
+	.q-jason{
+		font-size: 3.5em;
+	}
+	.q-web{
+		font-size: 1em;
+	}
+
+/*Skills and Education Img*/ 
+    .q-skills img, .q-education img{
+        height: 80px;
+    }
+
+
 }
-}*/
+
+
+/*Small Phone*/
+@media (max-width: 480px) {
+    h2{
+        font-size: 1.8em;
+    }
+
+    /*Skills*/
+    .q-skills h4{
+        font-size: 1em;
+    }
+    .q-skills img, .q-education img{
+        height: 70px;
+    }
+
+    /*Education*/
+    .q-education h3{
+        font-size: 1.2em;
+        margin-top: 0;
+    }
+
+    /*Portfolio*/
+    .portfolio-margin h3{
+        font-size: 20px;
+    }
+}
+
