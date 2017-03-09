@@ -448,12 +448,22 @@ body:before {
 
 /*Portfolio*/
     .thumbnail-box{
-        background-color: #111;
+        background-color: #222;
         background: -webkit-linear-gradient(rgba(0, 181, 201, .8), rgba(0, 1, 17, .8));
         background: -webkit-linear-gradient(rgba(0, 181, 201, .8), rgba(0, 1, 17, .8)); /*Safari 5.1-6*/
         background: -o-linear-gradient(rgba(0, 181, 201, .8), rgba(0, 1, 17, .8)); /*Opera 11.1-12*/
         background: -moz-linear-gradient(rgba(0, 181, 201, .8), rgba(0, 1, 17, .8)); /*Fx 3.6-15*/
         background: linear-gradient(rgba(0, 181, 201, .8), rgba(0, 1, 17, .8));
+    }
+    .q-resume{
+        background-color: rgba(0, 181, 201, .8);
+        padding: 20px 0 30px 0;
+    }
+    .q-resume .go-button{
+        background-color: white;
+        border-color: white;
+        padding: 20px 0;
+        color: #00BCD4;
     }
 
 
