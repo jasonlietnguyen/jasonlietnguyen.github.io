@@ -79,9 +79,9 @@
                 <div class="col-md-4 square-box-blue" ng-click="openContact = !openContact">
                     <h3 class="back">VIEW CONTACT</h3>
                     <span class="center-block text-center">
-                        <i class="fa fa-user fa-5x animated infinite pulse" aria-hidden="true"></i>
+                        <div class="icon-margin"></div>
+                        <img class="animated infinite swing front" src="img/icon-contact.png" alt="" width="75px">
                     </span>
-                    <hr>
                     <h3 class="text-center front">CONTACT</h3>
                 </div>
             </div>
@@ -143,22 +143,20 @@
                 <div class="col-md-4 square-box-blue" ng-click="openExperiences = !openExperiences">
                     <h3 class="back">VIEW EXPERICENCE</h3>
                     <span class="center-block text-center">
-                        <i class="fa fa-laptop fa-5x animated infinite pulse" aria-hidden="true"></i>
+                        <div class="icon-margin"></div>
+                        <img class="animated infinite swing front" src="img/icon-experience.png" alt="" width="75px">
                     </span>
-                    <hr>
                     <h3 class="text-center front">EXPERIENCE</h3>
                 </div>
-                <div class="col-md-2 square-box-light">
+                <div class="col-md-4 square-box img-xd"></div>
+                <div class="col-md-2 col-md-offset-2 square-box-light">
                     <img class="center-block logo-padding" src="img/bootstrap.png" width="150px">
-                </div>
-                <div class="col-md-4 col-md-offset-2 square-box img-creative">
-                    <h2 class="text-center">C R E A T I V E</h2>
                 </div>
             </div>
 
             <div class="row" ng-show="openExperiences">
                 <div class="col-md-4 open-boxes">
-                    <h3 class="text-center animated bounceInDown" style="margin: 0; padding-top: 20px">CodeWorks Boise</h3>
+                    <h3 class="text-center animated bounceInDown" style="margin: 0; padding-top: 10px">CodeWorks Boise</h3>
                     <hr class="animated bounceInDown">
                     <br>
                     <ul>
@@ -167,7 +165,7 @@
                     </ul>
                 </div>
                 <div class="col-md-4 open-boxes">
-                    <h3 class="text-center animated bounceInDown" style="margin: 0; padding-top: 20px">Lead Builder Guru</h3>
+                    <h3 class="text-center animated bounceInDown" style="margin: 0; padding-top: 10px">Lead Builder Guru</h3>
                     <hr class="animated bounceInDown">
                     <br>
                     <ul>
@@ -176,11 +174,12 @@
                     </ul>
                 </div>
                 <div class="col-md-4 open-box">
-                    <h3 class="text-center animated bounceInDown" style="margin: 0; padding-top: 20px">Freelance Web Design</h3>
+                    <h3 class="text-center animated bounceInDown" style="margin: 0; padding-top: 10px">Ventive</h3>
                     <hr class="animated bounceInDown">
                     <br>
                     <ul>
-                        <li class="animated bounceInDown">Provide quality web design services for remote clients to discuss and determine various layout design.</li>
+                        <li class="animated bounceInDown">Evaluated requirements, in collaboration with product managers, front/back end engineers.</li>
+                        <li class="animated bounceInDown">Managed project execution to ensure adherence to scope, budget, and schedule.</li>
                     </ul>
                 </div>
             </div>
@@ -198,13 +197,13 @@
                 <div class="col-md-4 col-md-offset-2 square-box-blue" ng-click="openSkills = !openSkills">
                     <h3 class="back">VIEW SKILLS</h3>
                     <span class="center-block text-center">
-                        <i class="fa fa-keyboard-o fa-5x animated infinite pulse" aria-hidden="true"></i>
+                        <div class="icon-margin"></div>
+                        <img class="animated infinite swing front" src="img/icon-skill.png" alt="" width="75px">
                     </span>
-                    <hr>
                     <h3 class="text-center front">SKILLS / TOOLS</h3>
                 </div>
-                <div class="col-md-4 square-box-light">
-                    <img class="center-block logo-padding" src="img/lightroom-cover.png" width="338px">
+                <div class="col-md-4 square-box img-creative">
+                    <h2 class="text-center">U X / U I</h2>
                 </div>
             </div>
 
@@ -212,6 +211,11 @@
                 <div class="col-md-2 open-boxes animated bounceInDown">
                     <img class="center-block logo-padding" src="img/figma.png" width="105px">
                     <h4 class="text-center">Figma</h4>
+                </div>
+                <div class="col-md-2 open-boxes animated bounceInDown">
+                    <img class="center-block logo-padding" src="img/xd.png" width="105px">
+                    <br>
+                    <h4 class="text-center">Abobe XD</h4>
                 </div>
                 <div class="col-md-2 open-boxes animated bounceInDown">
                     <img class="center-block logo-padding" src="img/photoshop.png" width="110px">
@@ -225,36 +229,34 @@
                     <img class="center-block logo-padding" src="img/css.png" width="90px">
                     <h4 class="text-center">CSS</h4>
                 </div>
-                <div class="col-md-2 open-boxes animated bounceInDown">
+                <div class="col-md-2 open-box animated bounceInDown">
                     <img class="center-block logo-padding" src="img/js.png" width="105px">
                     <h4 class="text-center">JS</h4>
                 </div>
-                <div class="col-md-2 open-box animated bounceInDown">
-                    <img class="center-block logo-padding" src="img/bootstrap2.png" width="105px">
-                    <h4 class="text-center">Bootstrap</h4>
-                </div>
-
             </div>
             <div class="row" ng-show="openSkills">
                 <div class="col-md-2 open-boxes animated bounceInDown">
-                    <img class="center-block logo-padding" src="img/mongo.png" width="100px">
-                    <h4 class="text-center">Mongo DB</h4>
+                    <img class="center-block logo-padding" src="img/bootstrap2.png" width="105px">
+                    <h4 class="text-center">Bootstrap</h4>
                 </div>
                 <div class="col-md-2 open-boxes animated bounceInDown">
-                    <img class="center-block logo-padding" src="img/vue.png" width="100px">
-                    <h4 class="text-center">Vue</h4>
+                    <img class="center-block logo-padding" src="img/foundation2.png" width="100px">
+                    <br>
+                    <h4 class="text-center">Foundation</h4>
+                </div>
+                <div class="col-md-2 open-boxes animated bounceInDown">
+                    <img class="center-block logo-padding" src="img/invision.png" width="100px">
+                    <h4 class="text-center">Invision App</h4>
                 </div>
                 <div class="col-md-2 open-boxes animated bounceInDown">
                     <img class="center-block logo-padding" src="img/jq.png" width="100px">
                     <h4 class="text-center">JQuery</h4>
                 </div>
+
                 <div class="col-md-2 open-boxes animated bounceInDown">
-                    <img class="center-block logo-padding" src="img/angular.png" width="105px">
-                    <h4 class="text-center">Angular</h4>
-                </div>
-                <div class="col-md-2 open-boxes animated bounceInDown">
-                    <img class="center-block logo-padding" src="img/node.png" width="105px">
-                    <h4 class="text-center">Node Js</h4>
+                    <img class="center-block logo-padding" src="img/gsuite.png" width="135px">
+                    <br>
+                    <h4 class="text-center">G Suite</h4>
                 </div>
                 <div class="col-md-2 open-box animated bounceInDown">
                     <img class="center-block logo-padding" src="img/vscode.png" width="105px">
@@ -277,9 +279,9 @@
                 <div class="col-md-4 square-box-blue" ng-click="openEducation = !openEducation">
                     <h3 class="back">VIEW EDUCATION</h3>
                     <span class="center-block text-center">
-                        <i class="fa fa-graduation-cap fa-5x animated infinite pulse" aria-hidden="true"></i>
+                        <div class="icon-margin"></div>
+                        <img class="animated infinite swing front" src="img/icon-education.png" alt="" width="75px">
                     </span>
-                    <hr>
                     <h3 class="text-center front">EDUCATION</h3>
                 </div>
             </div>
@@ -307,15 +309,14 @@
                 <div class="col-md-4 square-box-blue" ng-click="openInterests = !openInterests">
                     <h3 class="back">VIEW INTERESTS</h3>
                     <span class="center-block text-center">
-                        <i class="fa fa-camera-retro fa-5x animated infinite pulse" aria-hidden="true"></i>
+                        <div class="icon-margin"></div>
+                        <img class="animated infinite swing front" src="img/icon-interest.png" alt="" width="75px">
                     </span>
-                    <hr>
                     <h3 class="text-center front">INTERESTS</h3>
                 </div>
                 <div class="col-md-4 square-box img-code">
                     <h1 class="text-center">I &nbsp;
-                        <i class="fa fa-heart" aria-hidden="true"></i> &nbsp;
-                        DESIGN
+                        <i class="fa fa-heart" aria-hidden="true"></i> &nbsp; DESIGN
                     </h1>
                 </div>
                 <div class="col-md-4 square-box-light">
@@ -351,8 +352,11 @@
 
             <a name="portfolio"></a>
             <div class="row">
-                <div class="col-md-12 square-box-black">
+                <div class="col-md-12 text-center">
                     <h1 class="text-center portfolio">M Y &nbsp;&nbsp;&nbsp; W O R K</h1>
+                    <i class="fa fa-4x fa-angle-double-down animated infinite bounce q-arrow" aria-hidden="true" style="padding-top: 0;"></i>
+                    <br>
+                    <br>
                 </div>
             </div>
 
@@ -375,28 +379,28 @@
                             <h5>Media Query</h5>
                             <h5>Photoshop</h5>
                             <h5>Git</h5>
-                            <h5>Sublime</h5>
                             <h5>VS Code</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="thumbnail thumbnail-box">
-                        <img src="img/coffee.png" alt="Coffee Review">
-                        <h2 class="text-center">Coffee Review</h2>
-                        <a href="https://shielded-earth-90482.herokuapp.com/coffeeshop" target="_blank">
-                            <h4 class="text-center go-button">View Demo</h4>
+                        <img src="img/pm.jpg" alt="Code Works Boise">
+                        <h2 class="text-center">Project Management Design</h2>
+                        <a href="https://jasonlietnguyen.github.io/project-management/" target="_blank">
+                            <h4 class="text-center go-button">View Design</h4>
                         </a>
-                        <a href="https://github.com/jasonlietnguyen/coffee" target="_blank">
-                            <h4 class="text-center code-button">Get The Code</h4>
+                        <a href="https://github.com/jasonlietnguyen" target="_blank">
+                            <h4 class="text-center code-button">Visit My Github</h4>
                         </a>
                         <div class="container">
+                            <h5>UX/UI Design</h5>
+                            <h5>Figma</h5>
                             <h5>Bootstrap 4</h5>
                             <h5>HTML5</h5>
                             <h5>CSS3</h5>
-                            <h5>CSS3</h5>
-                            <h5>Mongo DB</h5>
-
+                            <h5>Git</h5>
+                            <h5>VS Code</h5>
                         </div>
                     </div>
                 </div>
@@ -408,15 +412,17 @@
             <div class="row portfolio-margin">
                 <div class="col-md-6">
                     <div class="thumbnail thumbnail-box">
-                        <img src="img/photography.png" alt="Photography">
-                        <h2 class="text-center">Photography</h2>
-                        <a href="http://jasonlietnguyen.github.io/photography/" target="_blank">
-                            <h4 class="text-center go-button">View Demo</h4>
+                        <img src="img/mpm.png" alt="Mobile Project Management">
+                        <h2 class="text-center">Mobile PM App Design</h2>
+                        <a href="https://jasonlietnguyen.github.io/mobile-project-management/" target="_blank">
+                            <h4 class="text-center go-button">View Design</h4>
                         </a>
-                        <a href="https://github.com/jasonlietnguyen/photography" target="_blank">
-                            <h4 class="text-center code-button">Get The Code</h4>
+                        <a href="https://github.com/jasonlietnguyen" target="_blank">
+                            <h4 class="text-center code-button">Visit My Github</h4>
                         </a>
                         <div class="container">
+                            <h5>UX/UI Design</h5>
+                            <h5>Figma</h5>
                             <h5>Bootstrap 4</h5>
                             <h5>HTML5</h5>
                             <h5>CSS3</h5>
@@ -426,6 +432,28 @@
                     </div>
                 </div>
                 <div class="col-md-6">
+                    <div class="thumbnail thumbnail-box">
+                        <img src="img/crm.png" alt="Customer Relationship Management">
+                        <h2 class="text-center">Customer Relationship Management</h2>
+                        <a href="https://jasonlietnguyen.github.io/customer-relationship-management/" target="_blank">
+                            <h4 class="text-center go-button">View Design</h4>
+                        </a>
+                        <a href="https://github.com/jasonlietnguyen" target="_blank">
+                            <h4 class="text-center code-button">Visit My Github</h4>
+                        </a>
+                        <div class="container">
+                            <h5>UX/UI Design</h5>
+                            <h5>Figma</h5>
+                            <h5>Bootstrap 4</h5>
+                            <h5>HTML5</h5>
+                            <h5>CSS3</h5>
+                            <h5>Git</h5>
+                            <h5>VS Code</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="col-md-6">
                     <div class="thumbnail thumbnail-box">
                         <img src="img/sortags.png" alt="Sortags">
                         <h2 class="text-center">Sortags Sportwears</h2>
@@ -443,13 +471,13 @@
                             <h5>VS Code</h5>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
             </div>
 
             <!--Section 3-->
             <div class="row portfolio-margin">
-                <div class="col-md-6">
+                <!-- <div class="col-md-6">
                     <div class="thumbnail thumbnail-box">
                         <img src="img/ryko.png" alt="Ryko">
                         <h2 class="text-center">RyKo</h2>
@@ -468,7 +496,7 @@
                             <h5>VS Code</h5>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="col-md-6">
                     <div class="thumbnail thumbnail-box">
                         <img src="img/waypoint.png" alt="Waypoints">
@@ -488,6 +516,25 @@
                             <h5>Photoshop</h5>
                             <h5>Bower</h5>
                             <h5>Git</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="thumbnail thumbnail-box">
+                        <img src="img/photography.png" alt="Photography">
+                        <h2 class="text-center">Photography</h2>
+                        <a href="http://jasonlietnguyen.github.io/photography/" target="_blank">
+                            <h4 class="text-center go-button">View Demo</h4>
+                        </a>
+                        <a href="https://github.com/jasonlietnguyen/photography" target="_blank">
+                            <h4 class="text-center code-button">Get The Code</h4>
+                        </a>
+                        <div class="container">
+                            <h5>Bootstrap 4</h5>
+                            <h5>HTML5</h5>
+                            <h5>CSS3</h5>
+                            <h5>Git</h5>
+                            <h5>VS Code</h5>
                         </div>
                     </div>
                 </div>
@@ -519,6 +566,26 @@
                 </div>
                 <div class="col-md-6">
                     <div class="thumbnail thumbnail-box">
+                        <img src="img/dubai.png" alt="Dubai">
+                        <h2 class="text-center">Dubai</h2>
+                        <a href="http://jasonlietnguyen.github.io/dubai/" target="_blank">
+                            <h4 class="text-center go-button">View Demo</h4>
+                        </a>
+                        <a href="https://github.com/jasonlietnguyen/dubai" target="_blank">
+                            <h4 class="text-center code-button">Get The Code</h4>
+                        </a>
+                        <div class="container">
+                            <h5>Bootstrap</h5>
+                            <h5>HTML5</h5>
+                            <h5>CSS3</h5>
+                            <h5>VS Code</h5>
+                            <h5>Git</h5>
+                            <h5>Movie Maker</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-md-6">
+                    <div class="thumbnail thumbnail-box">
                         <img src="img/qna.png" alt="Q and A">
                         <h2 class="text-center">Q&A</h2>
                         <a href="https://zmixon.github.io/deep-blue-blues-queues/" target="_blank">
@@ -536,12 +603,12 @@
                             <h5>VS Code</h5>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
 
             <!--Section 5-->
             <div class="row portfolio-margin">
-                <div class="col-md-6">
+                <!-- <div class="col-md-6">
                     <div class="thumbnail thumbnail-box">
                         <img src="img/skeleton.png" alt="Skeleton">
                         <h2 class="text-center">Skeleton Framework</h2>
@@ -581,35 +648,16 @@
                             <h5>VS Code</h5>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
 
 
 
             <!--Section 6-->
             <div class="row portfolio-margin">
-                <div class="col-md-6">
-                    <div class="thumbnail thumbnail-box">
-                        <img src="img/dubai.png" alt="Dubai">
-                        <h2 class="text-center">Dubai</h2>
-                        <a href="http://jasonlietnguyen.github.io/dubai/" target="_blank">
-                            <h4 class="text-center go-button">View Demo</h4>
-                        </a>
-                        <a href="https://github.com/jasonlietnguyen/dubai" target="_blank">
-                            <h4 class="text-center code-button">Get The Code</h4>
-                        </a>
-                        <div class="container">
-                            <h5>Bootstrap</h5>
-                            <h5>HTML5</h5>
-                            <h5>CSS3</h5>
-                            <h5>VS Code</h5>
-                            <h5>Git</h5>
-                            <h5>Movie Maker</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="thumbnail thumbnail-box">
+
+                <div class="col-md-6 col-md-offset-3">
+                    <!-- <div class="thumbnail thumbnail-box">
                         <img src="img/paper-resume.png" alt="Resume">
                         <h3 class="text-center">Get a copy of my Resume</h3>
                         <a href="img/resume.pdf" target="_blank">
@@ -618,7 +666,11 @@
                         <div class="container">
                             <h5>Photoshop</h5>
                         </div>
-                    </div>
+                    </div> -->
+                    <a href="img/resume.pdf" target="_blank">
+                        <h4 class="text-center code-button" style="border-radius: 3em; padding: 1em 3em;">Get a copy of my resume</h4>
+                    </a>
+                    <br>
                 </div>
             </div>
         </div>
@@ -677,12 +729,13 @@
                         </ul>
                     </p>
                     <br>
-                    <h3 class="text-center">Freelance Web Designer</h3>
+                    <h3 class="text-center">Ventive</h3>
                     <p>
                         <ul>
-                            <li>Provide quality web design services for remote clients to discuss and determine various layout
-                                design
+                            <li>Evaluated and gathered requirements, in collaboration with product managers, front & back end
+                                engineers.
                             </li>
+                            <li>Managed project execution to ensure adherence to scope, budget, and schedule.</li>
                         </ul>
                     </p>
                     <br>
@@ -727,6 +780,18 @@
                             <h4 class="text-center">Figma</h4>
                         </div>
                         <div class="col-xs-4">
+                            <img src="img/xd.png" alt="adobe XD">
+                            <h4 class="text-center">Adobe XD</h4>
+                        </div>
+                        <div class="col-xs-4">
+                            <img src="img/photoshop.png" alt="photoshop">
+                            <h4 class="text-center">Photoshop</h4>
+                        </div>
+                    </div>
+                    <br>
+
+                    <div class="row">
+                        <div class="col-xs-4">
                             <img src="img/bootstrap2.png" alt="bootstrap">
                             <h4 class="text-center">Bootstrap</h4>
                         </div>
@@ -734,21 +799,9 @@
                             <img src="img/foundation2.png" alt="foundation">
                             <h4 class="text-center">Foundation</h4>
                         </div>
-                    </div>
-                    <br>
-
-                    <div class="row">
                         <div class="col-xs-4">
-                            <img src="img/photoshop.png" alt="photoshop">
-                            <h4 class="text-center">Photoshop</h4>
-                        </div>
-                        <div class="col-xs-4">
-                            <img src="img/angular.png" alt="angular">
-                            <h4 class="text-center">Angular</h4>
-                        </div>
-                        <div class="col-xs-4">
-                            <img src="img/vue.png" alt="clickfunnels">
-                            <h4 class="text-center">Vue</h4>
+                            <img src="img/invision.png" alt="Invision App">
+                            <h4 class="text-center">Invision App</h4>
                         </div>
                     </div>
                     <br>
@@ -759,8 +812,8 @@
                             <h4 class="text-center">JQuery</h4>
                         </div>
                         <div class="col-xs-4">
-                            <img src="img/mongo.png" alt="angular">
-                            <h4 class="text-center">Mongo DB</h4>
+                            <img src="img/gsuite.png" alt="angular">
+                            <h4 class="text-center">G Suite</h4>
                         </div>
                         <div class="col-xs-4">
                             <img src="img/clickfunnels.png" alt="clickfunnels">
@@ -793,8 +846,7 @@
                 <!--I love Code-->
                 <div class="square-box img-code">
                     <h1 class="text-center">I &nbsp;&nbsp;
-                        <i class="fa fa-heart" aria-hidden="true"></i> &nbsp;&nbsp;
-                        <i class="fa fa-code" aria-hidden="true"></i>
+                        <i class="fa fa-heart" aria-hidden="true"></i> &nbsp; DESIGN
                     </h1>
                 </div>
                 <div class="q-md-padding"></div>
@@ -868,9 +920,10 @@
                 <!--My Works-->
                 <div class="container text-center q-my-work">
                     <br>
-                    <h1 style="font-size: 3.5em; font-weight: 900;">M Y
+                    <h1 style="font-size: 3.5em;">M Y
                         <br> W O R K</h1>
-                    <i class="fa fa-4x fa-angle-double-down animated infinite flash q-arrow" aria-hidden="true" style="padding-top: 0;"></i>
+                    <i class="fa fa-2x fa-angle-double-down animated infinite bounce q-arrow" aria-hidden="true"></i>
+                    <div class="q-md-padding"></div>
                 </div>
 
 
@@ -882,10 +935,10 @@
                             <img src="img/codeworks.png" alt="Code Works Boise">
                             <h2 class="text-center">CodeWorks Boise</h2>
                             <a href="https://jasonlietnguyen.github.io/bcw/" target="_blank">
-                                <h3 class="text-center go-button">View Demo</h3>
+                                <h4 class="text-center go-button">View Demo</h4>
                             </a>
                             <a href="https://github.com/jasonlietnguyen/bcw" target="_blank">
-                                <h3 class="text-center code-button">Get The Code</h3>
+                                <h4 class="text-center code-button">Get The Code</h4>
                             </a>
                             <div class="container">
                                 <h5>Bootstrap 4</h5>
@@ -904,10 +957,10 @@
                             <img src="img/waypoint.png" alt="Waypoints">
                             <h2 class="text-center">Waypoints.js</h2>
                             <a href="http://jasonlietnguyen.github.io/boisecodeworks/" target="_blank">
-                                <h3 class="text-center go-button">View Demo</h3>
+                                <h4 class="text-center go-button">View Demo</h4>
                             </a>
                             <a href="https://github.com/jasonlietnguyen/boisecodeworks" target="_blank">
-                                <h3 class="text-center code-button">Get The Code</h3>
+                                <h4 class="text-center code-button">Get The Code</h4>
                             </a>
                             <div class="container">
                                 <h5>Waypoint.js</h5>
@@ -927,17 +980,20 @@
 
                 <!--Section 2-->
                 <div class="row portfolio-margin">
+
                     <div class="col-md-6">
                         <div class="thumbnail thumbnail-box">
-                            <img src="img/photography.png" alt="Photography">
-                            <h2 class="text-center">Photography</h2>
-                            <a href="http://jasonlietnguyen.github.io/photography/" target="_blank">
-                                <h3 class="text-center go-button">View Demo</h3>
+                            <img src="img/pm.jpg" alt="Code Works Boise">
+                            <h2 class="text-center">Project Management Design</h2>
+                            <a href="https://jasonlietnguyen.github.io/project-management/" target="_blank">
+                                <h4 class="text-center go-button">View Design</h4>
                             </a>
-                            <a href="https://github.com/jasonlietnguyen/photography" target="_blank">
-                                <h3 class="text-center code-button">Get The Code</h3>
+                            <a href="https://github.com/jasonlietnguyen" target="_blank">
+                                <h4 class="text-center code-button">Visit My Github</h4>
                             </a>
                             <div class="container">
+                                <h5>UX/UI Design</h5>
+                                <h5>Figma</h5>
                                 <h5>Bootstrap 4</h5>
                                 <h5>HTML5</h5>
                                 <h5>CSS3</h5>
@@ -946,7 +1002,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <!-- <div class="col-md-6">
                         <div class="thumbnail thumbnail-box">
                             <img src="img/sortags.png" alt="Sortags">
                             <h2 class="text-center">Sortags Sportwears</h2>
@@ -964,13 +1020,55 @@
                                 <h5>VS Code</h5>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
                 </div>
 
                 <!--Section 3-->
                 <div class="row portfolio-margin">
                     <div class="col-md-6">
+                        <div class="thumbnail thumbnail-box">
+                            <img src="img/mpm.png" alt="Mobile Project Management">
+                            <h2 class="text-center">Mobile PM App Design</h2>
+                            <a href="https://jasonlietnguyen.github.io/mobile-project-management/" target="_blank">
+                                <h4 class="text-center go-button">View Design</h4>
+                            </a>
+                            <a href="https://github.com/jasonlietnguyen" target="_blank">
+                                <h4 class="text-center code-button">Visit My Github</h4>
+                            </a>
+                            <div class="container">
+                                <h5>UX/UI Design</h5>
+                                <h5>Figma</h5>
+                                <h5>Bootstrap 4</h5>
+                                <h5>HTML5</h5>
+                                <h5>CSS3</h5>
+                                <h5>Git</h5>
+                                <h5>VS Code</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="thumbnail thumbnail-box">
+                            <img src="img/crm.png" alt="Customer Relationship Management">
+                            <h2 class="text-center">Customer Relationship Management</h2>
+                            <a href="https://jasonlietnguyen.github.io/customer-relationship-management/" target="_blank">
+                                <h4 class="text-center go-button">View Design</h4>
+                            </a>
+                            <a href="https://github.com/jasonlietnguyen" target="_blank">
+                                <h4 class="text-center code-button">Visit My Github</h4>
+                            </a>
+                            <div class="container">
+                                <h5>UX/UI Design</h5>
+                                <h5>Figma</h5>
+                                <h5>Bootstrap 4</h5>
+                                <h5>HTML5</h5>
+                                <h5>CSS3</h5>
+                                <h5>Git</h5>
+                                <h5>VS Code</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-md-6">
                         <div class="thumbnail thumbnail-box">
                             <img src="img/ryko.png" alt="Ryko">
                             <h2 class="text-center">RyKo</h2>
@@ -989,7 +1087,7 @@
                                 <h5>VS Code</h5>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!--<div class="col-md-6">
                 <div class="thumbnail thumbnail-box">
                     <img src="img/dubai.png" alt="Dubai">
@@ -1014,7 +1112,7 @@
 
                 <!--Row 4-->
                 <div class="row portfolio-margin">
-                    <div class="col-md-6">
+                    <!-- <div class="col-md-6">
                         <div class="thumbnail thumbnail-box">
                             <img src="img/skeleton.png" alt="Skeleton">
                             <h2 class="text-center">Skeleton Framework</h2>
@@ -1033,16 +1131,16 @@
                                 <h5>Sublime</h5>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="col-md-6">
                         <div class="thumbnail thumbnail-box">
                             <img src="img/music-is-life.png" alt="Music Is Life">
                             <h2 class="text-center">Music Is Life</h2>
                             <a href="https://jasonlietnguyen.github.io/music" target="_blank">
-                                <h3 class="text-center go-button">View Demo</h3>
+                                <h4 class="text-center go-button">View Demo</h4>
                             </a>
                             <a href="https://github.com/jasonlietnguyen/music" target="_blank">
-                                <h3 class="text-center code-button">Get The Code</h3>
+                                <h4 class="text-center code-button">Get The Code</h4>
                             </a>
                             <div class="container">
                                 <h5>Bootstrap</h5>
@@ -1056,13 +1154,32 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-6">
+                        <div class="thumbnail thumbnail-box">
+                            <img src="img/photography.png" alt="Photography">
+                            <h2 class="text-center">Photography</h2>
+                            <a href="http://jasonlietnguyen.github.io/photography/" target="_blank">
+                                <h4 class="text-center go-button">View Demo</h4>
+                            </a>
+                            <a href="https://github.com/jasonlietnguyen/photography" target="_blank">
+                                <h4 class="text-center code-button">Get The Code</h4>
+                            </a>
+                            <div class="container">
+                                <h5>Bootstrap 4</h5>
+                                <h5>HTML5</h5>
+                                <h5>CSS3</h5>
+                                <h5>Git</h5>
+                                <h5>VS Code</h5>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
 
 
                 <!--Section 5-->
                 <div class="row portfolio-margin">
-                    <div class="col-md-6">
+                    <!-- <div class="col-md-6">
                         <div class="thumbnail thumbnail-box">
                             <img src="img/clickfunnel.png" alt="Click Funnels">
                             <h3 class="text-center">Click Funnels System</h3>
@@ -1074,13 +1191,13 @@
                                 <h5>Git</h5>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <br>
                     <div class="col-md-6">
                         <div class="q-resume">
                             <h2 class="text-center">Get a copy of my resume</h2>
                             <a href="img/resume.pdf" target="_blank">
-                                <h3 class="text-center go-button">Download Resume</h3>
+                                <h3 class="text-center go-button">View Resume</h3>
                             </a>
                         </div>
                     </div>
@@ -1249,6 +1366,27 @@
                 </div>
             </div>
         </div>-->
+
+        <!-- <div class="col-md-6">
+                <div class="thumbnail thumbnail-box">
+                    <img src="img/coffee.png" alt="Coffee Review">
+                    <h2 class="text-center">Coffee Review</h2>
+                    <a href="https://shielded-earth-90482.herokuapp.com/coffeeshop" target="_blank">
+                        <h4 class="text-center go-button">View Demo</h4>
+                    </a>
+                    <a href="https://github.com/jasonlietnguyen/coffee" target="_blank">
+                        <h4 class="text-center code-button">Get The Code</h4>
+                    </a>
+                    <div class="container">
+                        <h5>Bootstrap 4</h5>
+                        <h5>HTML5</h5>
+                        <h5>CSS3</h5>
+                        <h5>CSS3</h5>
+                        <h5>Mongo DB</h5>
+
+                    </div>
+                </div>
+            </div> -->
 
         <!--<div class="col-md-4">
             <div class="thumbnail thumbnail-box">
