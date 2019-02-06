@@ -388,7 +388,7 @@ body:before {
 		font-weight: 300;
 	}
     .q-i{
-        background-color: rgba(0, 181, 201, .8);
+        background-color: rgba(0, 181, 201, 1);
         padding: 25px; 
         border-radius: 50%;
         padding-bottom: -50px;
